@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Canasta_Presupuesto</string>
+    <string name="action_settings">Settings</string>
+	
+
+    <string name="TextView1">SELECCIONE UN AÑO</string>
+</resources>

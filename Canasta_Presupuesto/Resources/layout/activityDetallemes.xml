@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="@android:color/holo_orange_dark"
+        android:text=""
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1" />
+    <ListView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:id="@+id/listView1" />
+    <ListView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:id="@+id/listView2" />
+    <ListView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:id="@+id/listView3" />
+    <ListView
+         android:padding="2dp"
+        android:layout_margin="5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:id="@+id/listView4" />
+</LinearLayout>
